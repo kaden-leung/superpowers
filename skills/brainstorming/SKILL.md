@@ -58,12 +58,13 @@ Move the work forward, with one of these:
   has to be built, like a constraint, a conflict, or a cheaper path, say
   so plainly. How to build it comes later, once you understand what they
   want (see Lay out the approaches). End with one line inviting
-  corrections, then one question about what they want: the thing their
-  request leaves open whose answer would most change what gets built.
+  corrections, then one numbered batch of questions about what they want:
+  everything their request leaves open that would change what gets built,
+  biggest first. Give each a one-line why and mark the few that matter most.
   Specs are often incomplete, so confirm before you build on one.
-- **They haven't:** one open question, in their own terms, about the
-  biggest thing their request leaves unsettled. Say why you're asking:
-  what the answer would change about what you build. For "a website for
+- **They haven't:** one numbered batch of open questions, in their own
+  terms, about what their request leaves unsettled, biggest first. For each,
+  say why you're asking: what the answer would change about what you build. For "a website for
   my bakery": "If it's mostly for people deciding whether to stop by,
   I'd lead with hours and what's in the case today; taking orders is a
   different site. What do you want someone to do when they land on it?"
@@ -72,10 +73,10 @@ How the message ends depends on whether their message asked for
 brainstorming:
 
 - **They asked for it** (by name, by invoking it, or by asking for a
-  design discussion): end with your question. They want this
+  design discussion): end with your questions. They want this
   conversation.
 - **They didn't:** they may not want a conversation at all. After your
-  question, add a light, one-line offer to just get going instead, like
+  questions, add a light, one-line offer to just get going instead, like
   "Or if you'd rather I just dive in, say so." If they take you up on
   it, this skill is done: state any significant how-it-gets-made choice
   (platform, language, medium) in one plain line, then do what they
@@ -85,8 +86,10 @@ That's the whole message.
 
 ## The Conversation
 
-Each message ends with one question: a single sentence with no list of
-example answers hanging off it. Use plain language, pitched just a little
+Each message ends with one numbered batch of questions, never a drip of
+single questions. Each question is one sentence with a one-line why, with no
+list of example answers hanging off it; mark the few that matter most. If
+the answers raise new questions, send one smaller follow-up batch. Use plain language, pitched just a little
 above where your human partner is. Match their vocabulary; never use
 process jargon. You never need to quote this skill to your human
 partner.
