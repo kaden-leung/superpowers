@@ -44,6 +44,11 @@ connects to, and keep reading until you can explain how the relevant
 parts work today and what this change would touch. Never ask what the
 project or their context already answers.
 
+Finding facts is your job; making decisions is theirs. If a fact is still
+unknown when you write your questions, look it up (a helper agent can do it
+in parallel) instead of asking, and hold back only the questions that
+depend on it.
+
 ## Your First Message
 
 Move the work forward, with one of these:
@@ -58,13 +63,13 @@ Move the work forward, with one of these:
   has to be built, like a constraint, a conflict, or a cheaper path, say
   so plainly. How to build it comes later, once you understand what they
   want (see Lay out the approaches). End with one line inviting
-  corrections, then one numbered batch of questions about what they want:
-  everything their request leaves open that would change what gets built,
-  biggest first. Give each a one-line why and mark the few that matter most.
+  corrections, then your first round of questions (format in The
+  Conversation): everything their request leaves open that would change
+  what gets built, biggest first.
   Specs are often incomplete, so confirm before you build on one.
-- **They haven't:** one numbered batch of open questions, in their own
-  terms, about what their request leaves unsettled, biggest first. For each,
-  say why you're asking: what the answer would change about what you build. For "a website for
+- **They haven't:** a first round of open questions, in their own terms,
+  about what their request leaves unsettled, biggest first. For each, say
+  why you're asking: what the answer would change about what you build. For "a website for
   my bakery": "If it's mostly for people deciding whether to stop by,
   I'd lead with hours and what's in the case today; taking orders is a
   different site. What do you want someone to do when they land on it?"
@@ -86,10 +91,23 @@ That's the whole message.
 
 ## The Conversation
 
-Each message ends with one numbered batch of questions, never a drip of
-single questions. Each question is one sentence with a one-line why, with no
-list of example answers hanging off it; mark the few that matter most. If
-the answers raise new questions, send one smaller follow-up batch. Use plain language, pitched just a little
+Work in **rounds**, never a drip of single questions. Each round asks the
+whole **frontier**: every open question whose prerequisites are already
+settled. A question that depends on an answer you don't have yet waits for
+a later round. Number the questions, biggest first, and mark the few that
+matter most with ★:
+
+❓ **Q1 - <short title>**: <the question and, in one line, why it matters>
+➡️ <your recommended answer, worded so "yes" accepts it>
+
+Recommend an answer for decisions: scope, design, trade-offs, defaults.
+Leave the ➡️ line out for anything only they know: their goals,
+preferences, experiences, or why they want this. Ask for those in their
+own words, and in personal writing put their words before your
+suggestions. Every ❓ is a real question ending in a question mark; never
+use one to announce a decision you already made. End each round with a line
+naming the specific decisions the next round will cover. Use plain
+language, pitched just a little
 above where your human partner is. Match their vocabulary; never use
 process jargon. You never need to quote this skill to your human
 partner.
